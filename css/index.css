@@ -132,6 +132,10 @@ table {
 html {
   font-size: 62.5%;
 }
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -172,6 +176,13 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 3px dotted lightgrey;
+  padding: 11px 10%;
+  align-items: center;
+}
+header nav a {
+  margin: 5%;
+  text-decoration: none;
+  color: black;
 }
 .footer {
   width: 100%;

@@ -1,1 +1,11 @@
 // Mixins in here
+
+.flex(@justify: space-between) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.dashed-border(@border-plc; @border-color) {
+    @{border-plc}: 2px dashed @border-color;
+}
+
