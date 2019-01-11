@@ -231,12 +231,36 @@ header nav a {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -246,9 +270,28 @@ header nav a {
   padding-left: 1%;
   padding-right: 0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content .text-content {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .img-content {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
 }
 .home .content-destination {
   width: 75%;
@@ -256,6 +299,13 @@ header nav a {
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 .home .content-pick {
   padding-top: 30px;
@@ -276,4 +326,30 @@ header nav a {
   border-radius: 13px;
   text-align: center;
   padding-top: 12px;
+}
+@media mobile {
+  .home .content-pick .destination .btn {
+    font-size: 1.7rem;
+    color: white;
+    background-color: darkcyan;
+    width: 80%;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    padding-top: 12px;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 82%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
 }
