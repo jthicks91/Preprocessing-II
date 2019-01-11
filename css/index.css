@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px dotted lightgrey;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
