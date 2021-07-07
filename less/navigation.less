@@ -1,1 +1,19 @@
 // Navigation Styles here
+
+header {
+    .flex;
+    border-bottom: 3px dotted lightgrey;
+    padding: 25px 10%;
+    align-items: center;
+
+    nav {
+        width: 45%;
+        .flex(space-evenly);
+        a {
+          color: black;
+        }
+        @media @mobile {
+            width: 100%;
+          }
+        }
+}

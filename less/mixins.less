@@ -1,1 +1,23 @@
 // Mixins in here
+
+.flex(@justify: space-between) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.btn-mix(@color: white; @bgcolor: darkcyan;) {
+    font-size: 1.7rem;
+    color: @color;
+    background-color: @bgcolor;
+    width: 80%;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+  .mobile-content(@width: 100%) {
+    width: @width;
+    padding-left: 0;
+    padding-right: 0;
+  }
